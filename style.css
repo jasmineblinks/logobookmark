@@ -23,8 +23,8 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(200px, auto);
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(200px, auto);
+  grid-gap: 10px;
 }
