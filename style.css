@@ -27,4 +27,14 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: minmax(200px, auto);
   grid-gap: 10px;
+  grid-template-areas: 
+  "header"
+  "hero"
+  "info"
+  "download"
+  "install"
+  "faqs"
+  "contact"
+  "footer-container"
+  ;
 }
