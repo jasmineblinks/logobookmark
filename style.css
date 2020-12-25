@@ -73,12 +73,17 @@ header{
 @media (min-width: 768px) {}
 
 @media (min-width: 992px) {
-  
+  /* header{
+    margin-right: auto;
+    margin-left: auto;
+  } */
   
   .header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .header__list{
     display: flex;
@@ -92,7 +97,7 @@ header{
     background-color:var(--soft-red);
     color: #ffffff;
     border-radius: 5px;
-    padding:5px 15px 5px 15px;
+    padding:10px 20px 10px 20px;
     list-style: none;
   }
 }
