@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 
 :root {
+  --white:#ffffff;
   --soft-blue: hsl(231, 69%, 60%);
   --soft-red: hsl(0, 94%, 66%);
   --grayish-blue: hsl(229, 8%, 60%);
@@ -20,6 +21,7 @@ body {
   top: 0;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
+  background-color: var(--white);
 }
 
 .container {
@@ -37,4 +39,34 @@ body {
   "contact"
   "footer-container"
   ;
+}
+header{
+  grid-area: header;
+}
+.header__list__items{
+  list-style: none;
+}
+.header__list__items--btn{
+  
+}
+.hero{
+  grid-area: hero;
+}
+.info{
+  grid-area: info;
+}
+.download{
+  grid-area: download;
+}
+.install{
+  grid-area: install;
+}
+.faqs{
+  grid-area: faqs;
+}
+.contact{
+  grid-area: contact;
+}
+.footer-container{
+  grid-area: footer-container;
 }
