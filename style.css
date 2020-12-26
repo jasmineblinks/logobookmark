@@ -19,8 +19,7 @@ body {
   bottom: 0;
   right: 0;
   top: 0;
-  font-family: "Rubik";
-  /* font-size: 18px; */
+  font-family: 'Rubik', sans-serif;
   background-color: var(--white);
 }
 
@@ -82,9 +81,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    
   }
+  
   .header__list{
     display: flex;
     
