@@ -134,4 +134,40 @@ header {
     color: #9194a1;
     font-size: 18px;
   }
+  .hero__btn--blue{
+    font-size: 14px;
+    padding:18px 24px;
+    font-family: Arial;
+    background-color: var(--soft-blue);
+    color: #fff;
+    border-radius: 8px;
+    border:none;
+  }
+  .hero__btn--blue:hover{
+    font-size: 14px;
+    padding:18px 24px;
+    font-family: Arial;
+    background-color: transparent;
+    color: var(--soft-blue);
+    border-radius: 8px;
+    border:2px solid var(--soft-blue);
+  }
+  .hero__btn--gray:hover{
+    font-size: 14px;
+    padding:18px 24px;
+    font-family: Arial;
+    background-color: transparent;
+    color: var(--grayish-blue);
+    border-radius: 8px;
+    border:2px solid var(--grayish-blue);
+  }
+  .hero__btn--gray{
+    font-size: 14px;
+    padding:18px 24px;
+    font-family: Arial;
+    background-color: #ffffff;
+    color: var(--grayish-blue);
+    border-radius: 8px;
+    border:none;
+  }
 }
