@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 
 :root {
-  --white:#ffffff;
+  --white: #ffffff;
   --soft-blue: hsl(231, 69%, 60%);
   --soft-red: hsl(0, 94%, 66%);
   --grayish-blue: hsl(229, 8%, 60%);
@@ -19,7 +19,7 @@ body {
   bottom: 0;
   right: 0;
   top: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: var(--white);
 }
 
@@ -28,48 +28,48 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: minmax(200px, auto);
   grid-gap: 10px;
-  grid-template-areas: 
-  "header"
-  "hero"
-  "info"
-  "download"
-  "install"
-  "faqs"
-  "contact"
-  "footer-container"
-  ;
+  grid-template-areas:
+    "header"
+    "hero"
+    "info"
+    "download"
+    "install"
+    "faqs"
+    "contact"
+    "footer-container";
 }
-header{
+header {
   grid-area: header;
 }
-.header__list__items{
+.header__list__items {
   list-style: none;
 }
 /* .header__list__items--btn{
   
 } */
-.hero{
+.hero {
   grid-area: hero;
 }
-.info{
+.info {
   grid-area: info;
 }
-.download{
+.download {
   grid-area: download;
 }
-.install{
+.install {
   grid-area: install;
 }
-.faqs{
+.faqs {
   grid-area: faqs;
 }
-.contact{
+.contact {
   grid-area: contact;
 }
-.footer-container{
+.footer-container {
   grid-area: footer-container;
 }
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 @media (min-width: 992px) {
   .container {
@@ -77,66 +77,61 @@ header{
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: minmax(200px, auto);
     grid-gap: 10px;
-    grid-template-areas: 
-    "header header header"
-    " hero hero hero"
-    " inf info info"
-    "download download download"
-    "install install install"
-    "faqs faqs faqs"
-    "contact contact contact"
-    "footer-container footer-container footer-container"
-    ;
+    grid-template-areas:
+      "header header header"
+      " hero hero hero"
+      " inf info info"
+      "download download download"
+      "install install install"
+      "faqs faqs faqs"
+      "contact contact contact"
+      "footer-container footer-container footer-container";
   }
-  header{
+  header {
     grid-area: header;
     width: 100%;
-    
   }
- 
-  
-  .header__content{
+
+  .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
-    
   }
   /* .header__logo{
     margin-left: auto; 
   } */
-  
-  .header__list{
+
+  .header__list {
     display: flex;
-    
   }
-  .header__list__items{
+  .header__list__items {
     list-style: none;
-    margin:15px;
+    margin: 15px;
   }
-  .header__list__items--btn{
-    background-color:var(--soft-red);
+  .header__list__items--btn {
+    background-color: var(--soft-red);
     color: #ffffff;
     border-radius: 5px;
-    padding:10px 25px 10px 25px;
+    padding: 10px 25px 10px 25px;
     list-style: none;
   }
 
-.hero__container{
-  display: flex;
-  justify-content: space-between;
-}
-.hero__content{
-  width: 500px;
-  margin-left:50px ;
-}
-.hero__heading{
-  font-size: 48px;
-  color: #252b46;
-}
-.hero__text{
-  color: #9194a1;
-  font-size: 18px;
-}
+  .hero__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero__content {
+    width: 500px;
+    margin-left: 50px;
+  }
+  .hero__heading {
+    font-size: 48px;
+    color: #252b46;
+  }
+  .hero__text {
+    color: #9194a1;
+    font-size: 18px;
+  }
 }
